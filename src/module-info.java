@@ -5,5 +5,5 @@
  * @author Eyasir Ahamed
  *
  */
-module practise {
+module java_programming {
 }
