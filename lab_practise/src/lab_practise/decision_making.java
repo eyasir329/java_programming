@@ -112,10 +112,14 @@ public class decision_making {
 	void num_digit() {
 		System.out.println("Enter a integer");
 		int num = input.nextInt();
-		for(int i=1;i<=num;i+=num/10) {
+		int i,count=0;
+		i=num;
+		while(i!=0) {
+			i=num/10;
 			num=num%10;
-			System.out.print(num);
+			count++;
 		}
+		System.out.print(count);
 	}
 }
 
