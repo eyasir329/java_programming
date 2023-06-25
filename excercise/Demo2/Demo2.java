@@ -1,3 +1,5 @@
+package Demo2;
+
 class Student{
     int rollno;
     String name,course;
