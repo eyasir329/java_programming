@@ -1,6 +1,4 @@
 package Demo5;
-
-
 public class StaticScope {
     public static void main(String[] args) {
         int x;
